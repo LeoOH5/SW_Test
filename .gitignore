@@ -1,0 +1,8 @@
+# 민감정보 (테스트 계정 비밀번호 등) - 커밋 금지
+test_rule.md
+
+# 임시/작업 파일
+*.tmp
+scratch_*
+_verify*.txt
+_uploadtest_list.txt
