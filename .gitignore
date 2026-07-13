@@ -1,0 +1,4 @@
+# 로컬 자동테스트 작업본 — 커밋 금지 (auth.json에 실제 토큰 포함)
+recon/
+scripts/
+test_assets/
