@@ -6,3 +6,6 @@ test_rule.md
 scratch_*
 _verify*.txt
 _uploadtest_list.txt
+
+# oh-my-claudecode 도구 상태
+.omc/
