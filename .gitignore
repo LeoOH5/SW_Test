@@ -2,3 +2,4 @@ image/
 *.tmp
 .omc/
 testRule
+.DS_Store
