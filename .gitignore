@@ -1,4 +1,10 @@
-# 로컬 자동테스트 작업본 — 커밋 금지 (auth.json에 실제 토큰 포함)
-recon/
+# 로컬 자동테스트 작업본 — 커밋 금지 (auth.json 등 JSON에 실제 토큰/PII 포함)
+recon/*
 scripts/
 test_assets/
+
+# 예외: 증적 스크린샷(PNG)은 대회 제출 증거로 추적. JSON(auth.json 등)은 계속 무시.
+!recon/*.png
+!recon/v3shots/
+recon/v3shots/*
+!recon/v3shots/*.png
